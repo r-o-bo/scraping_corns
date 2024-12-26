@@ -1,5 +1,5 @@
 fixed the classes issue, thereby finishing task c
 finished tasks
 next udf for all movies
-finished 1/5 udfs
+finished 4/5 udfs
 next dataframing
