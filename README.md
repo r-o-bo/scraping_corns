@@ -24,9 +24,9 @@ This project demonstrates web scraping techniques using Python and BeautifulSoup
 ## 📁 Project Structure
 
 ```text
-├── PopcornPicker.ipynb     # Jupyter Notebook with all scraping logic  
-├── .gitignore              # Ignores CSV outputs and other unnecessary files  
-├── requirements.txt        # Dependencies (optional)  
+├── PopcornPicker.ipynb      
+├── .gitignore              
+├── requirements.txt # (optional)       
 └── README.md  
 ````
 
