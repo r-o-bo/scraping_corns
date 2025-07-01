@@ -9,7 +9,7 @@ This project demonstrates web scraping techniques using Python and BeautifulSoup
 - Scrapes movie data across multiple pages  
 - Parses HTML using `BeautifulSoup`  
 - Cleans and structures data using `pandas`  
-- Exports the final dataset to a `.csv` file (not tracked in repo)
+- Exports the final dataset 
 
 
 ## 🛠️ Libraries Used
