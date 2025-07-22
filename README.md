@@ -1,8 +1,6 @@
-
-
 # 🎬 Movie Database Web Scraper: 🍿 scraping_corns
 
-This project demonstrates web scraping techniques using Python and BeautifulSoup. It collects movie data from The Movie Database (TMDB), processes it using pandas, and exports the cleaned data to a CSV file (excluded from the repo). 
+This project demonstrates web scraping techniques using Python and BeautifulSoup. It collects movie data from The Movie Database (TMDB), processes it using pandas, and exports the cleaned data to a CSV file (excluded from the repository). 
 
 ## 🧠 Features
 
@@ -21,16 +19,7 @@ This project demonstrates web scraping techniques using Python and BeautifulSoup
 * `re` – for regular expression operations
 
 
-## 📁 Project Structure
-
-```text
-├── PopcornPicker.ipynb      
-├── .gitignore              
-├── requirements.txt # (optional)       
-└── README.md  
-````
-
-## 🚀 How to Run
+## 📁 How to Run
 
 ### 1. Clone the repository
 
