@@ -24,8 +24,8 @@ This project demonstrates web scraping techniques using Python and BeautifulSoup
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/r-o-bo/scraping_corns.git
+cd scraping_corns
 ```
 
 ### 2. Install dependencies
