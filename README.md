@@ -5,7 +5,7 @@
 
 This project demonstrates practical web scraping techniques using Python's **BeautifulSoup**. It focuses on extracting structured data from **The Movie Database (TMDB)** — such as movie titles, release years etc, by navigating and parsing HTML content.<br>
 
-After extracting the raw data, it is cleaned and transformed using **pandas** for further analysis. The processed results are then exported to a CSV file
+After extracting the raw data, it is cleaned and transformed using **pandas** for further analysis. The processed results are then exported to a CSV file and can be uploaded to AWS S3 using **boto3** for cloud storage and further accessibility.
 
 
 
@@ -16,7 +16,8 @@ After extracting the raw data, it is cleaned and transformed using **pandas** fo
 - Scrapes movie data across multiple pages  
 - Parses HTML using `BeautifulSoup`  
 - Cleans and structures data using `pandas`  
-- Exports the final dataset 
+- Exports the final dataset
+- Uploads the final CSV to AWS S3 using `boto3`
 
 
 ## 🛠️ Libraries Used
@@ -26,7 +27,13 @@ After extracting the raw data, it is cleaned and transformed using **pandas** fo
 * `numpy` – for numerical operations
 * `pandas` – for data manipulation and cleaning
 * `re` – for regular expression operations
-
+* `boto3` – for interacting with AWS S3
+* `os` – for handling file paths and system operations
+* `dotenv` (`load_dotenv`) – for loading environment variables
+  
+---
+### Workflow:
+<p align="center"> <img src="assets/scrapeillu.png" alt="Scraping Workflow" width="700"/> </p>
 
 ## 📁 How to Run
 
@@ -44,8 +51,21 @@ Recommended to use a virtual environment:
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Configure AWS credentials
 
-### 3. Run the Notebook
+Set up your AWS credentials either via environment variables or the AWS CLI:
+
+```bash
+aws configure
+```
+You must create your own S3 bucket and attach S3 policies to an IAM user and retrieve your access information.
+
+```env
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
+```
+
+### 4. Run the Notebook
 
 Launch Jupyter Notebook:
 
