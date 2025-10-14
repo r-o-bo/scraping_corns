@@ -1,5 +1,7 @@
 __pycache__/
+.ipynb_checkpoints/
 *.pyc
 .env
 .DS_Store
-newfile.csv
+moviedata1.csv
+moviedata2.csv
