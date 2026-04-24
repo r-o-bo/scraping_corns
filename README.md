@@ -3,7 +3,7 @@
   <img src="assets/tmdb3.jpg" alt="tmdb" width="750"/> 
 </p>
 
-This project demonstrates practical web scraping techniques using Python's **BeautifulSoup**. It focuses on extracting structured data from **The Movie Database (TMDB)** — such as movie titles, release years etc, by navigating and parsing HTML content.<br>
+This project demonstrates practical web scraping techniques using Python's **BeautifulSoup**. It focuses on extracting structured data from **The Movie Database (TMDB)** such as movie titles, release years etc, by navigating and parsing HTML content.<br>
 
 After extracting the raw data, it is cleaned and transformed using **pandas** for further analysis. The processed results are then exported to a CSV file and can be uploaded to AWS S3 using **boto3** for cloud storage and further accessibility.
 
