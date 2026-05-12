@@ -11,7 +11,7 @@ After extracting the raw data, it is cleaned and transformed using **pandas** fo
 
 
 
-## 🧠 Features
+## Features
 
 - Scrapes movie data across multiple pages  
 - Parses HTML using `BeautifulSoup`  
@@ -20,7 +20,7 @@ After extracting the raw data, it is cleaned and transformed using **pandas** fo
 - Uploads the final CSV to AWS S3 using `boto3`
 
 
-## 🛠️ Libraries Used
+## Libraries Used
 
 * `requests` – for sending HTTP requests
 * `BeautifulSoup` – for parsing HTML
@@ -35,7 +35,7 @@ After extracting the raw data, it is cleaned and transformed using **pandas** fo
 ### Workflow:
 <p align="center"> <img src="assets/scrapeillu.png" alt="Scraping Workflow" width="700"/> </p>
 
-## 📁 How to Run
+## How to Run
 
 ### 1. Clone the repository
 
