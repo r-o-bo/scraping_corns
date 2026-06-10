@@ -1,4 +1,4 @@
-# 🎬 Movie Database Web Scraper: scraping_corns 🍿
+# Movie Database Web Scraper: scraping_corns
 <p align="center">
   <img src="assets/tmdb3.jpg" alt="tmdb" width="750"/> 
 </p>
